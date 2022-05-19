@@ -39,5 +39,6 @@ La idea es crear una cantidad de productores que recojan los datos de cada actri
 
 En la base de datos se pueden obervar los resultados, sin que haya alguna actriz repetida 
 
-![img3](https://user-images.githubusercontent.com/61527863/169353084-1d0c4234-7444-4780-975e-5e7174d47c93.jpeg)
+![img2](https://user-images.githubusercontent.com/61527863/169353632-0404ee0a-17f4-4e96-8b68-fe7c730d2426.jpeg)
+
 
