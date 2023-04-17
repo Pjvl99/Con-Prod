@@ -1,9 +1,3 @@
-# productor-consumidor proyecto
-
-- Jean Pierre Mejicanos
-- Adriana Mundo
-- Pablo Velasquez
-
 ## Web scrapping utilizando productores y consumidores
 
 
