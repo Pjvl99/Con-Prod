@@ -5,6 +5,10 @@
 It is required to store the relationship between films and actresses in a database.
 The films in which each actress has worked are defined on each web page of the filmography in which the actress has acted.
 
+- Diagram:
+
+
+![prodcondiagram](https://github.com/Pjvl99/Con-Prod/assets/61527863/3174c81b-0a2e-4146-b938-ad53ccd5e5ba)
 
 ### Tools:
 - Go: To create and manage consumers and producers
