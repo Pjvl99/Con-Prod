@@ -1,32 +1,30 @@
-## Web scrapping utilizando productores y consumidores
+## Web scrapping using producers y consumers
 
 
-**Descripción:** 
-Se requiere almacenar en una base de datos la relación existente entre películas y actrices.
-Los films en los que ha laborado cada actriz están definidos en cada página web de la filmografía en la que la actriz ha actuado. Se debe de leer el HTML del sitio de actrices y almacenar lo que se le indica  en una base de datos mysql 
+**Description:** 
+It is required to store the relationship between films and actresses in a database.
+The films in which each actress has worked are defined on each web page of the filmography in which the actress has acted.
 
 
-
-
-### Tecnologías utilizadas:
-- Go: para crear y manejar los consumidores y productores
+### Tools:
+- Go: To create and manage consumers and producers
 - Docker
-    - mysql: para guardar todos los datos   
+    - mysql: Store all data
 
-## Ejecución del proyecto
-#### Base de datos - Docker Mysql
+## Project Execution
+#### Database - Docker Mysql
 ```
 docker-compose up
 ``` 
 
-#### GO - productores y consumidores
+#### GO - Producers and consumers
 ```
-./pcb #Productores #Consumidores
+./pcb #Producers #Consumers
 ```
-En #Productores se pone la cantidad de productores y en #Consumidores la cantidad de consumidores. Para ejecutar esto el docker debe estar corriendo.
+In #Producers we put the number of producers and in #Consumers the number of consumers. To run this command docker must be running.
 
-### Ejecución
-La idea es crear una cantidad de productores que recojan los datos de cada actriz y pasarsela a los consumidores sin que ocurra una condición de carrera que haga que los datos se repitan.
+### Execution
+The idea is to create a number of producers who collect the data for each actress and pass it to consumers without a race condition occurring that causes the data to be repeated.
 
 ![img1](https://user-images.githubusercontent.com/61527863/169353015-8e18b421-fc4e-4f4c-aeff-4f6e19153791.jpeg)
 
@@ -36,7 +34,7 @@ La idea es crear una cantidad de productores que recojan los datos de cada actri
 
 ![img6](https://user-images.githubusercontent.com/61527863/169354743-bef545b1-45b0-4497-9e5d-04aa796a8cac.jpeg)
 
-En la base de datos se pueden obervar los resultados, sin que haya alguna actriz repetida 
+In the database you can see the results, without any repeated actress data.
 
 ![img2](https://user-images.githubusercontent.com/61527863/169353632-0404ee0a-17f4-4e96-8b68-fe7c730d2426.jpeg)
 
